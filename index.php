@@ -1,3 +1,11 @@
+<?php
+/**
+ * Nekozono WordPress Theme
+ * @author: ChumTech
+ * @link: https://demo.chum9625.com/nekozono/news/
+ */
+if ( !defined( 'ABSPATH' ) ) exit; ?>
+
 <?php get_header(); ?>
 
 <h1 class="text-gray-800 text-2xl sm:text-3xl font-bold text-center mb-4 md:mb-6">新着情報</h1>
@@ -13,7 +21,7 @@
       <?php if( have_posts() ): ?>
         <?php while( have_posts() ) : the_post(); ?>
 
-        <?php get_template_part('template-parts/loop', 'news'); ?>
+        <?php get_template_part('template-parts/loop'); ?>
 
         <?php endwhile; ?>
         <?php endif; ?>
