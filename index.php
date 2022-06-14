@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<h1 class="text-gray-800 text-2xl sm:text-3xl font-bold text-center mb-4 md:mb-6">お知らせ</h1>
+<h1 class="text-gray-800 text-2xl sm:text-3xl font-bold text-center mb-4 md:mb-6">新着情報</h1>
 
 <section>
   <?php get_template_part('template-parts/breadcrumb'); ?>

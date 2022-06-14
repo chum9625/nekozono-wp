@@ -16,6 +16,8 @@
    - にゃんずリンク切れ、カテゴリーID修正。
    - functions.php style.css の呼び出しURL変更。
    - static のfooter section リンク修正。 
+   - hedaer リンク修正
+   - カテゴリー記事一覧作成
 10. トップページ（static）のWordPress記事実装。 👈今ここ
 
 ---
