@@ -4,9 +4,8 @@
  * @author: ChumTech
  * @link: https://demo.chum9625.com/nekozono/news/
  */
-if ( !defined( 'ABSPATH' ) ) exit; ?>
+if ( !defined( 'ABSPATH' ) ) exit;
 
-<?php
 define("ZONO", get_template_directory_uri());
 
 function script_init() {
