@@ -8,7 +8,7 @@
 5. developブランチを作成し、defaultブランチに設定。
 6. localのテーマディレクトリのルートに.gitignore設置後、git init〜push
 7. [FTP-Deploy-Action](https://github.com/SamKirkland/FTP-Deploy-Action)導入。
-   1. オリジナルをForkした [actions-ftp-deploy](https://github.com/chum9625/actions-ftp-deploy) main.yml（最新版）を使うこと。
+   1. オリジナルをForkした [actions-ftp-deploy](https://github.com/chum9625/actions-ftp-deploy)の main.yml（最新版）を使うこと。
    2. 予めxlsxにまとめておいたsecret値を設定する。
 8. developブランチをmainにマージ。
 9. 公開サイトデプロイ確認後、リンクアドレス等整備を進める。
