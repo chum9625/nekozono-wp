@@ -2,4 +2,3 @@ node_modules
 plugins
 uploads
 *.json
-.github/**
