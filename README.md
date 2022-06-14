@@ -12,6 +12,10 @@
    2. 予めxlsxにまとめておいたsecret値を設定する。
 8. developブランチをmainにマージ。
 9. 公開サイトデプロイ確認後、リンクアドレス等整備を進める。
+   - header.php リンク修正。
+   - にゃんずリンク切れ、カテゴリーID修正。
+   - functions.php style.css の呼び出しURL変更。
+   - static のfooter section リンク修正。 
 10. トップページ（static）のWordPress記事実装。 👈今ここ
 
 ---
