@@ -1,3 +1,11 @@
+<?php
+/**
+ * Nekozono WordPress Theme
+ * @author: ChumTech
+ * @link: https://demo.chum9625.com/nekozono/news/
+ */
+if ( !defined( 'ABSPATH' ) ) exit; ?>
+
 <!DOCTYPE html>
 <html lang="ja data-theme=pastel">
 <head>

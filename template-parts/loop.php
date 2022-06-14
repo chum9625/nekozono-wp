@@ -1,4 +1,12 @@
-      <!-- article - start -->
+<?php
+/**
+ * Nekozono WordPress Theme
+ * @author: ChumTech
+ * @link: https://demo.chum9625.com/nekozono/news/
+ */
+if ( !defined( 'ABSPATH' ) ) exit; ?>
+
+<!-- article - start -->
       <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
         <a href="<?php the_permalink(); ?>" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
           <?php if ( has_post_thumbnail() ) : ?>
@@ -26,7 +34,7 @@
                 </span>
               </div>
             </div>
-            <span class="text-gray-500 text-sm border rounded px-2 py-1"><?php the_category() ?></span>
+            <span class="text-gray-500 text-sm border rounded px-2 py-1"><?php the_category(); ?></span>
           </div>
         </div>
       </div>
