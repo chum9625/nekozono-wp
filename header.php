@@ -39,14 +39,14 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
                         </svg>
                       </a>
                       <ul class="p-2 bg-slate-50">
-                        <li><a href="<?php echo get_the_category()[1]->slug; ?>">お知らせ</a></li>
-                        <li><a href="<?php echo get_the_category()[3]->slug; ?>">にゃんず</a></li>
+                        <li><a href="./news">お知らせ</a></li>
+                        <li><a href="./cats">にゃんず</a></li>
                         <li><a href="https://demo.chum9625.com/nekozono/#schedule">スケジュール</a></li>
                       </ul>
                     </li>
                     <li><a href="https://demo.chum9625.com/nekozono/#price">料金表</a></li>
                     <li tabindex="0">
-                      <a class="justify-between">
+                      <a class="justify-between" href="https://demo.chum9625.com/nekozono/#shopinfo">
                       店舗について
                       <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
@@ -56,7 +56,6 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
                       <li><a href="https://demo.chum9625.com/nekozono/vision.html">ビジョン</a></li>
                       <li><a href="https://demo.chum9625.com/nekozono/notes.html">ご利用規約</a></li>
                       <li><a href="https://demo.chum9625.com/nekozono/lental.html">レンタルスペース</a></li>
-                      <li><a href="https://demo.chum9625.com/nekozono/#shopinfo">基本情報</li>
                       </ul>
                     </li>
                   </ul>
@@ -73,15 +72,15 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
                       </svg>
                     </a>
                     <ul class="p-2 bg-slate-50">
-                      <li><a href="<?php echo get_the_category()[1]->slug; ?>">お知らせ</a></li>
-                      <li><a href="<?php echo get_the_category()[3]->slug; ?>">にゃんず</a></li>
+                      <li><a href="./news">お知らせ</a></li>
+                      <li><a href="./cats">にゃんず</a></li>
                       <li><a href="https://demo.chum9625.com/nekozono/#schedule">スケジュール</a></li>
                     </ul>
                   </li>
                   <li><a href="https://demo.chum9625.com/nekozono/#price">料金表</a></li>
                   <ul class="menu menu-horizontal p-0">
                     <li tabindex="0">
-                    <a>
+                    <a href="https://demo.chum9625.com/nekozono/#shopinfo">
                       店舗について
                       <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                         <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
@@ -91,7 +90,6 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
                       <li><a href="https://demo.chum9625.com/nekozono/vision.html">ビジョン</a></li>
                       <li><a href="https://demo.chum9625.com/nekozono/notes.html">ご利用規約</a></li>
                       <li><a href="https://demo.chum9625.com/nekozono/lental.html">レンタルスペース</a></li>
-                      <li><a href="https://demo.chum9625.com/nekozono/#shopinfo">基本情報</a></li>
                     </ul>
                   </li>
                 </li>
