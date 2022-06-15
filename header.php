@@ -65,15 +65,15 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
               <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
                   <li tabindex="0">
-                    <a href="/">
+                    <a href="./">
                       新着情報
                       <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                         <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                       </svg>
                     </a>
                     <ul class="p-2 bg-slate-50">
-                      <li><a href="/news">お知らせ</a></li>
-                      <li><a href="/cats">にゃんず</a></li>
+                      <li><a href="./news">お知らせ</a></li>
+                      <li><a href="./cats">にゃんず</a></li>
                       <li><a href="https://demo.chum9625.com/nekozono/#schedule">スケジュール</a></li>
                     </ul>
                   </li>
