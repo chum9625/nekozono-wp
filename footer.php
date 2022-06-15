@@ -2,7 +2,7 @@
 /**
  * Nekozono WordPress Theme
  * @author: ChumTech
- * @link: https://demo.chum9625.com/nekozono/news/
+ * @link: https://demo.chum9625.com/nekozono/
  */
 if ( !defined( 'ABSPATH' ) ) exit; ?>
 
