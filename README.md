@@ -22,7 +22,7 @@
    - ダッシュボードでサイトアイコン設定（外観→カスタマイズ→サイト基本情報）【↓2022.6.16↓】
    - index用titleを変更
 10. トップページ（static）のWordPress記事実装。
-   - 【static】indexにwordpressタグ導入 👈今ここ
+   - static側のindexにwordpressタグ導入 👈今ここ
 
 ---
 
