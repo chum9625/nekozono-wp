@@ -8,10 +8,10 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
 
 <!-- article - start -->
       <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
-        <a href="<?php the_permalink(); ?>" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+        <a href="<?php the_permalink(); ?>" class="group h-48 md:h-48 block bg-gray-100 overflow-hidden relative">
           <?php if ( has_post_thumbnail() ) : ?>
             <div loading="lazy" alt="" class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200">
-              <?php the_post_thumbnail('medium'); ?>
+              <?php the_post_thumbnail('full'); ?>
             </div>
             <?php else: ?>
               <img src="https://source.unsplash.com/random/" loading="lazy" alt="" class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
