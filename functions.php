@@ -19,6 +19,10 @@ function script_init() {
 }
 add_action('wp_enqueue_scripts', 'script_init');
 
+
+/*
+** 機能有効化
+*/
 add_theme_support('post-thumbnails');
 add_theme_support('title-tag');
 
