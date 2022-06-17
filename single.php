@@ -8,7 +8,7 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
 
 <?php get_header(); ?>
 
-<h1 class="text-gray-800 text-2xl sm:text-3xl font-bold text-center mb-4 md:mb-6"><?php the_title(); ?></h1>
+<h1 class="py-6 text-gray-800 text-2xl sm:text-3xl font-bold text-center mb-4 md:mb-6"><?php the_category(); ?></h1>
 
 <section>
   <?php get_template_part('template-parts/breadcrumb'); ?>
@@ -29,10 +29,12 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
     </div>
     <span class="text-gray-600 text-sm border rounded px-2 py-1"><?php the_category(); ?></span>
   </div>
-  <!-- <h2 class="text-gray-800 text-xl sm:text-2xl font-semibold mb-2 md:mb-4"><?php the_title(); ?></h2> -->
+  <h2 class="text-gray-800 text-xl sm:text-2xl font-semibold mb-2 md:mb-4"><?php the_title(); ?></h2>
 
   <div class="bg-gray-100 overflow-hidden rounded-lg shadow-lg relative mb-6 md:mb-8">
-    <img src="https://source.unsplash.com/random/" loading="lazy" alt="" class="w-full h-full object-cover object-center" />
+    <div loading="lazy" alt="" class="w-full h-full object-cover object-center">
+      <?php the_post_thumbnail('large'); ?>
+    </div>
   </div>
 
 

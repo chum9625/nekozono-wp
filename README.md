@@ -1,26 +1,28 @@
 
 # History
 
-1. 2022/6/12〜 着手。同日中にWordPress化ほぼ完了。
-2. パン屑リストはプラグインを利用した。（json記述済）
-3. 6/13 sshでWordPress展開、ブラウザでインストール作業。
-4. `6/14 リポジトリ作成。
+1. 2022/6/12〜WordPress化着手。同日中にほぼ完了。【↓2022.6.12↓】
+2. パン屑リストはプラグインを利用。（json記述済）
+3. sshでWordPress展開、ブラウザでインストール作業。【↓2022.6.13↓】
+4. リポジトリ作成。【↓2022.6.14↓】
 5. developブランチを作成し、defaultブランチに設定。
 6. localのテーマディレクトリのルートに.gitignore設置後、git init〜push
 7. [FTP-Deploy-Action](https://github.com/SamKirkland/FTP-Deploy-Action)導入。
-   1. オリジナルをForkした [actions-ftp-deploy](https://github.com/chum9625/actions-ftp-deploy)の main.yml（最新版）を使うこと。
-   2. 予めxlsxにまとめておいたsecret値を設定する。
+   - Forkした [actions-ftp-deploy](https://github.com/chum9625/actions-ftp-deploy)の **main.yml（最新版）**を使うこと。
+   - 予めxlsxにまとめておいたsecret値を設定する。
 8. developブランチをmainにマージ。
 9. 公開サイトデプロイ確認後、リンクアドレス等整備を進める。
    - header.php リンク修正。
    - にゃんずリンク切れ、カテゴリーID修正。
    - functions.php style.css の呼び出しURL変更。
-   - 【static】footer section リンク修正。 
-   - hedaer リンク修正
+   - static側のfooter section リンク修正。 
+   - header リンク修正【↓2022.6.15↓】
    - カテゴリー記事一覧テンプレート追加
    - phpページに直読み対策を施す
-   - 【static】indexにwordpressタグ導入 👈今ここ
+   - ダッシュボードでサイトアイコン設定（外観→カスタマイズ→サイト基本情報）【↓2022.6.16↓】
+   - index用titleを変更
 10. トップページ（static）のWordPress記事実装。
+    - static側のindexにwordpressタグ導入 👈今ここ
 
 ---
 

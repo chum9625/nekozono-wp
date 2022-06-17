@@ -8,7 +8,7 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
 
 <?php get_header(); ?>
 
-<h1 class="text-gray-800 text-2xl sm:text-3xl font-bold text-center mb-4 md:mb-6"><?php the_title(); ?></h1>
+<h1 class="py-6 text-gray-800 text-2xl sm:text-3xl font-bold text-center mb-4 md:mb-6"><?php the_title(); ?></h1>
 
 <section>
   <?php get_template_part('template-parts/breadcrumb'); ?>
