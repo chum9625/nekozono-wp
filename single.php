@@ -8,7 +8,6 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
 
 <?php get_header(); ?>
 
-<div class="py-10"></div>
 <h1 class="text-gray-800 text-2xl sm:text-3xl font-bold text-center mb-4 md:mb-6"><?php the_title(); ?></h1>
 
 <section>
