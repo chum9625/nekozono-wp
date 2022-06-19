@@ -22,7 +22,9 @@
    - ダッシュボードでサイトアイコン設定（外観→カスタマイズ→サイト基本情報）【↓2022.6.16↓】
    - index用titleを変更
 10. トップページ（static）のWordPress記事実装。
-    - static側のindexにwordpressタグ導入 👈今ここ
+    - ~static側のindexにwordpressタグ導入~
+    - WP REST API に変更。実装＆レイアウト完了。【↓2022.6.19↓】 
+11. APIレスポンスを変更。functions.phpの修正。
 
 ---
 
