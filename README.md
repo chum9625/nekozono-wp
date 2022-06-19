@@ -24,7 +24,7 @@
 10. トップページ（static）のWordPress記事実装。
     - ~static側のindexにwordpressタグ導入~
     - WP REST API に変更。実装＆レイアウト完了。【↓2022.6.19↓】 
-11. APIレスポンスを変更。functions.phpの修正。
+11. APIレスポンスを変更。カテゴリ名取得関数をfunctions.phpに追記。
 
 ---
 
