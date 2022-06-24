@@ -9,6 +9,7 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
 <!-- ===== footer section start ===== -->
 <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
         <div class="grid grid-flow-col gap-4">
+          <a href="https://demo.chum9625.com/nekozono/" class="link link-hover">HOME</a>
           <a href="<?php echo get_permalink(3); ?>" class="link link-hover">プライバシーポリシー</a>
           <a href="<?php echo get_permalink(2); ?>" class="link link-hover">ご支援について</a>
         </div>
