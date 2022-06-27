@@ -14,7 +14,7 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
               <?php the_post_thumbnail('full'); ?>
             </div>
             <?php else: ?>
-              <img src="https://source.unsplash.com/random/" loading="lazy" alt="" class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+              <img src="https://placehold.jp/eeeeee/cccccc/240x180.png?text=No%20Image" loading="lazy" alt="No image" class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
         <?php endif; ?>
         </a>
 

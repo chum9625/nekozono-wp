@@ -37,7 +37,6 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
         the_post_thumbnail('large');
       else:
       ?>
-      <img src="https://placehold.jp/eeeeee/cccccc/240x180.png?text=No%20Image" alt="No image">
       <?php endif; ?>
     </div>
   </div>
