@@ -37,6 +37,8 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
         the_post_thumbnail('large');
       else:
       ?>
+      <!-- 定型画像やサイトロゴにしてもいいかも -->
+      <img src="https://placehold.jp/eeeeee/cccccc/800x180.png?text=No%20Image" alt="No image">
       <?php endif; ?>
     </div>
   </div>
