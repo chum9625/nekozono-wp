@@ -33,7 +33,12 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
 
   <div class="bg-gray-100 overflow-hidden rounded-lg shadow-lg relative mb-6 md:mb-8">
     <div loading="lazy" alt="" class="w-full h-full object-cover object-center">
-      <?php the_post_thumbnail('large'); ?>
+      <?php if (has_post_thumbnail()):
+        the_post_thumbnail('large');
+      else:
+      ?>
+      <img src="https://placehold.jp/eeeeee/cccccc/240x180.png?text=No%20Image" alt="No image">
+      <?php endif; ?>
     </div>
   </div>
 
