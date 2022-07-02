@@ -3,8 +3,8 @@
  * Nekozono WordPress Theme
  *
  * @package WordPress
- * @author: ChumTech
- * @link: https://demo.chum9625.com/nekozono/
+ * @author ChumTech
+ * @link https://demo.chum9625.com/nekozono/
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
