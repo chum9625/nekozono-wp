@@ -36,8 +36,11 @@
 
 ## 実施すること
 
-1.  サニタイズ
-2.  コーディング規約check
+1. 2022.7.2 コーディング規約check
+   1. Vscode拡張機能、phpcs、phpcbfをワークスペースでON
+   2. php8でphpcs機能しなかったのでphp7.4にダウングレード
+   3. 改行コードはCR （CRLFが混在しているので直す）
+2.  サニタイズ
 
 ---
 [<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=0077b6">](https://github.com/SamKirkland/FTP-Deploy-Action)
