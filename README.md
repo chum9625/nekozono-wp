@@ -1,3 +1,4 @@
+[<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=0077b6">](https://github.com/SamKirkland/FTP-Deploy-Action)
 
 # Concept
 
@@ -9,13 +10,13 @@
 ## History
 
 - __2022.6.12〜__ WordPress化着手。同日中にほぼ完了。
-  - パン屑リストはプラグインを利用。（json記述済）
+  - パン屑リストはプラグインを利用。（.wp-env.jsonに追記済）
 - __2022.6.13__ sshでWordPress展開、ブラウザでインストール作業。
 - __2022.6.14__ リポジトリ作成。
   - developブランチを作成し、defaultブランチに設定。
   - localのテーマディレクトリのルートに.gitignore設置後、git init〜push
   - [FTP-Deploy-Action](https://github.com/SamKirkland/FTP-Deploy-Action)導入。
-  - Forkした [actions-ftp-deploy](https://github.com/chum9625/actions-ftp-deploy)の *main.yml（最新版）*を使うこと。
+  - Forkした [actions-ftp-deploy](https://github.com/chum9625/actions-ftp-deploy)の **main.yml（最新版）**を使うこと。
   - 予めxlsxにまとめておいたsecret値を設定する。
   - developブランチをmainにマージ。
   - 公開サイトデプロイ確認後、リンクアドレス等整備を進める。
@@ -41,9 +42,6 @@
   - php8ではphpcsが機能しなかったのでphp7.4にダウングレード
   - 改行コードはCR （CRLFが混在しているので直す）
 - __2022.7.2__ サニタイズ
-- __2022.7.3__ 規約に則りコメント修正
+- __2022.7.3__ 続・コーディング規約check、主にコメント修正
   - [WordPress Coding Standard (WPCS) ](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/)
   - [PHP ドキュメント規約](https://ja.wordpress.org/team/handbook/coding-standards/inline-documentation-standards/php/)
-
----
-[<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=0077b6">](https://github.com/SamKirkland/FTP-Deploy-Action)
