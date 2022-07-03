@@ -40,7 +40,7 @@
   - Vscode拡張機能、phpcs、phpcbfをワークスペースでON
   - php8ではphpcsが機能しなかったのでphp7.4にダウングレード
   - 改行コードはCR （CRLFが混在しているので直す）
-- __2022.7.2〜7.3__ サニタイズ
+- __2022.7.2〜7.3__ サニタイズ、規約の則りコメント修正
   - [PHP ドキュメント規約](https://ja.wordpress.org/team/handbook/coding-standards/inline-documentation-standards/php/)
 
 ---
